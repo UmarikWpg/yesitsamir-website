@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="amir-title">
+        <h3><a href="#amirimg">Амир Умаров 9 E</a></h3>
+    </section>
+    
+    <form action="">
+        <div class="sizes">
+            <h2>Размеры</h2>
+            <div class="width-box input-box-styles"> 
+                <div class="input-title">
+                    Ширина
+                </div>
+                <div class="input-main">
+                    <input  type="range" id="width" value="1" min="0" max="600" oninput="cssGeneratorSize()"> <span value="0" id="width-text"> 0 px</span>
+                </div>
+            </div>
+            <div class="height-box input-box-styles">
+                <div class="input-title">
+                    Высота
+                </div>
+                <div class="input-main">
+                    <input  type="range" id="height" value="1" min="0" max="600" oninput="cssGeneratorSize()"> <span value="0" id="height-text">0 px</span>
+                </div>
+            </div>
+        </div>
+        <div class="styles">
+            <h2>Стили</h2>
+            <div class="styles-wrapper">
+                <div class="first-column"> 
+                    <div class="ltc-box input-box-styles">
+                        <div class="input-title">
+                            Левый верхний угол
+                        </div>
+                        <div class="input-main">
+                            <input  type="range" id="left-top-corner" value="0" min="0" max="100" oninput="cssGenerator()"> <span type="text" id="ltc-text" value="0" >0 px</span>
+                        </div>
+                    </div>
+                    <div class="rtc-box input-box-styles">
+                        <div class="input-title">
+                            Правый верхний угол
+                        </div>
+                        <div class="input-main">
+                            <input  type="range" id="right-top-corner" value="0" min="0" max="100" oninput="cssGenerator()"> <span type="text" id="rtc-text" value="0" >0 px</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="second-column">
+                    <div class="lbc-box input-box-styles">
+                        <div class="input-title">
+                            Левый нижний угол
+                        </div>
+                        <div class="input-main">
+                            <input  type="range" id="left-bottom-corner" value="0" min="0" max="100" oninput="cssGenerator()"> <span type="text" id="lbc-text" value="0" >0 px</span>
+                        </div>
+                    </div>
+                    <div class="rbc-box input-box-styles">
+                        <div class="input-title">
+                            Правый нижний угол
+                        </div>
+                        <div class="input-main">
+                            <input  type="range" id="right-bottom-corner" value="0" min="0" max="100" oninput="cssGenerator()"> <span type="text" id="rbc-text" value="0" >0 px</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </form>
+    <div class="edit-box-wrapper">
+        <div class="edit-box"></div>
+    </div>
+    <div class="reset">
+        <a href="index.html"><i class="fa-solid fa-rotate-left"></i></a>
+    </div>
+    
+    <section class="desc">
+        <p class="desc-subtitle container">
+            Внимание! <br>
+            Мой сайт сделан для практики и развлечения, со временем будут обновления сайта
+        </p>
+        <p class="desc-subtitle container">
+           <a href="https://t.me/yesitsamir"> @yesitsamir</a>
+        </p>
+        <p class="myimg">
+            <img id="amirimg" width="200px" src="img/photo_2022-07-15_19-50-17.jpg" alt="">
+        </p>
+    </section>
+    <script src="scipt.js"></script>
+</body>
+</html>

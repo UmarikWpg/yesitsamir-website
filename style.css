@@ -1,0 +1,147 @@
+@import url(media-screen/media.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+body {
+    background: #664aff;
+}
+form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+h2 {
+    color: #fff;
+    font-size: 35px;
+}
+.sizes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.styles {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+input {
+    -webkit-appearance: none;
+    height: 3px;
+    width: 190px;
+    background: #ddd;
+    border-radius: 2px;
+}
+.input-box-styles{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 45px;
+    width: 100%;
+    background: #fff;
+    border-radius: 5px;
+    padding: 10px;
+}
+.styles-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.first-column, .second-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+
+.edit-box-wrapper{
+    width: 100%;    
+    display: flex;
+    justify-content: center;
+}
+.edit-box {
+    width: 300px;
+    height: 150px;
+    
+    background-color:#fff ;
+}
+.reset{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.reset a i {
+    font-size: 40px;
+    color: #fff;
+    padding: 10px;
+    border-radius: 100px;
+    border: 5px solid #fff;
+    background: red;
+}
+
+h3 a{
+    font-size: 24px;
+    color: red;
+    background: #fff;
+    max-width: max-content;
+    border-radius: 100px;
+    padding: 10px 20px;
+    
+}
+.amir-title{
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.desc-subtitle{
+    margin-top: 80px;
+    color: #000;
+    font-size: 20px;
+    font-weight: 500;
+    max-width: 600px;
+    text-align: center;
+}
+.desc-subtitle:nth-child(2) {
+    margin-top: 50px;
+    font-size: 30px;
+    color: red;
+    font-weight: 600;
+}
+.container{
+    max-width: 1120px;
+    width: 100%;
+    margin: 0 auto;
+}
+.desc{
+    padding: 20px;
+    margin-top: 70px;
+    background-color: #fff;
+    height: max-content;
+}
+.myimg{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+#amirimg {
+    transition: 300ms;
+}
+#amirimg:hover {
+    transform: scale(10);
+}

@@ -1,0 +1,12 @@
+@media (max-width:850px) {
+    form {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+@media (max-width:550px) {
+    .styles-wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+}
